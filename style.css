@@ -1,0 +1,18 @@
+/* Minimal page styling: center the canvas on a white page. */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
